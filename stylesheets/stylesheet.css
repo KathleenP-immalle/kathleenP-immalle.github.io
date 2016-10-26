@@ -62,10 +62,11 @@ footer {
 #myHeader{
     background-color: #432457;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     width: 100%;
     position: fixed;
     z-index: +1;
+    text-align: center;
 
 }
 
