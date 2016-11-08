@@ -55,9 +55,10 @@ navigation
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background: linear-gradient(#b3d9ff, #432457);
     position: fixed;
     width: 100%;
+    top: 0px;
 }
 
 #navli {
@@ -74,16 +75,22 @@ navigation
 }
 
 #navli a:hover {
-    background-color: #111;
+     background: linear-gradient(#432457, #b3d9ff);
+    color: black;
 }
 
+.active{
+     background: linear-gradient(#432457, #b3d9ff);
+
+}
 
 /*
     Eigen code
 */
 
 body{
-    background-color:#b3d9ff;
+
+    background: linear-gradient(20deg, #123dfa, #b3d9ff);
 }
 
 footer {
@@ -120,17 +127,22 @@ footer {
     font-family: 'Pacifico', cursive;
     font-size: 56px;
     color: #cce6ff;
+    z-index: -1;
 
 }
 
 img{
-    margin-top: 115px;
+    margin-top: 125px;
     width:100%;
+    z-index: -1;
+
 }
 
 h2{
     font-family: 'Pacifico', cursive;
     color: #730099;
+    margin: 5px;
+    margin-top:25px;
 }
 
 #footerNaam{
@@ -145,5 +157,15 @@ h2{
     font-family: 'Pacifico', cursive;
     font-size: 42px;
     color: #cce6ff;
+
+}
+
+
+p{
+    margin: 10px;
+    font-size: 16;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    line-height: 25px;
 
 }
