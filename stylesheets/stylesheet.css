@@ -90,12 +90,13 @@ navigation
 
 body{
 
-    background: linear-gradient(20deg, #123dfa, #b3d9ff);
+    background: linear-gradient(#123dfa, #b3d9ff, #123dfa);
 }
 
 footer {
-    margin: 0px;
+    margin-bottom: 0px;
     padding: 10px;
+    padding-bottom: 1px;
     padding-top: 1px;
     background-color: #432457;
 
@@ -131,11 +132,10 @@ footer {
 
 }
 
-img{
+#headerimg{
     margin-top: 125px;
     width:100%;
     z-index: -1;
-
 }
 
 h2{
@@ -150,6 +150,7 @@ h2{
     font-size: 15px;
     margin: 20px;
     padding-top: 2px;
+    padding-bottom: 1px;
     color: #cce6ff;
 }
 
@@ -157,7 +158,6 @@ h2{
     font-family: 'Pacifico', cursive;
     font-size: 42px;
     color: #cce6ff;
-
 }
 
 
@@ -168,4 +168,16 @@ p{
     padding: 10px;
     line-height: 25px;
 
+}
+
+
+#blogpost1{
+    margin-top: 195px
+}
+
+.blogpost{
+    margin: 60px;
+    border: 1px solid black;
+    padding: 20px;
+    background: linear-gradient(#b3d9ff, #432457);
 }
