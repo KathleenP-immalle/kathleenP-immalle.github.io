@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, p, blockquote, pre,
+html, body, span, applet, object, iframe, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -56,10 +56,11 @@ navigation
     padding: 0;
     overflow: hidden;
     background: linear-gradient(#b3d9ff, #432457);
-    position: fixed;
     width: 100%;
     top: 0px;
     font-family: 'Open Sans', sans-serif;
+    position: fixed;
+
 }
 
 #navli {
@@ -105,13 +106,14 @@ footer {
 
 #myHeader{
     background-color: #432457;
-    margin: 0px;
+    margin-top: ;
     padding: 10px;
     width: 100%;
-    position: fixed;
+    position: auto;
     z-index: +1;
     text-align: center;
     top: 40px;
+    padding-top: 60px;
 
 }
 
@@ -134,9 +136,9 @@ footer {
 }
 
 #headerimg{
-    margin-top: 125px;
+
     width:100%;
-    z-index: -1;
+    z-index: -5000;
 }
 
 h2{
@@ -171,11 +173,6 @@ p{
 
 }
 
-
-#blogpost1{
-    margin-top: 195px
-}
-
 .blogpost{
     margin: 60px;
     border: 1px solid black;
@@ -183,3 +180,4 @@ p{
     background: linear-gradient(#b3d9ff, #432457);
     box-shadow: 5px 5px 1px #cce6ff;
 }
+
