@@ -176,9 +176,10 @@ p{
 
 .blogpost{
     margin: 60px;
-    border: 1px solid black;
     padding: 20px;
+    padding-top: 5px;
     background: linear-gradient(#b3d9ff, #432457);
     box-shadow: 5px 5px 1px #cce6ff;
+    border-radius: 10px;
 }
 
