@@ -1,102 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, span, applet, object, iframe, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 /*
 navigation
 */
 
-#navul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: linear-gradient(#b3d9ff, #432457);
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
-    position: fixed;
-    font-size: 30;
 
-}
-
-#navul2 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
-    top: 0px;
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-#navli {
-    float: left;
-
-}
-
-#navli a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
-}
-
-#navli a:hover {
-     background: linear-gradient(#432457, #b3d9ff);
-    color: black;
-}
-
-.active{
-     background: linear-gradient(#432457, #b3d9ff);
-
-}
 
 /*
     Eigen code
@@ -176,7 +83,7 @@ h2{
 
 p{
     margin: 10px;
-    font-size: 16;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
     line-height: 25px;
