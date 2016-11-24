@@ -57,9 +57,9 @@ navigation
     overflow: hidden;
     background: linear-gradient(#b3d9ff, #432457);
     width: 100%;
-    top: 0px;
     font-family: 'Open Sans', sans-serif;
     position: fixed;
+    font-size: 30;
 
 }
 
@@ -76,6 +76,7 @@ navigation
 
 #navli {
     float: left;
+
 }
 
 #navli a {
@@ -84,7 +85,7 @@ navigation
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-   
+
 }
 
 #navli a:hover {
@@ -115,12 +116,9 @@ footer {
 
 }
 
-#myHeader{
+header{
     background-color: #432457;
-    margin-top: ;
-    padding: 10px;
     width: 100%;
-    position: auto;
     z-index: +1;
     text-align: center;
     top: 40px;
@@ -131,7 +129,7 @@ footer {
 
 #headerNaam{
     font-family: 'Pacifico', cursive;
-    font-size: 15px;
+    font-size: 25px;
     margin: 20px;
     padding-top: 2px;
     color: #cce6ff;
