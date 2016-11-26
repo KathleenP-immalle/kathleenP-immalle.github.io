@@ -20,14 +20,14 @@
     text-align:center; 
     width:100%;
     font-size:0;
-    background: linear-gradient(#b3d9ff, #432457);
+    background:linear-gradient(#b3d9ff, #432457);
     display:inline-block;
     list-style:none;
     position:relative;
     z-index:999999990;
     max-width:1400px;
-    color: #fff;
-    border-radius: 12px;
+    color:#fff;
+    border-radius:12px;
 }
 
 #ddmenu li
