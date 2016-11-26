@@ -15,19 +15,16 @@
 
 #ddmenu ul
 {
-    margin:0 auto;
+    margin:0px;
     padding:0;
     text-align:center; 
     width:100%;
     font-size:0;
     background:linear-gradient(#b3d9ff, #432457);
-    display:inline-block;
     list-style:none;
     position:relative;
-    z-index:999999990;
-    max-width:1400px;
+    z-index:999999990;    
     color:#fff;
-    border-radius:12px;
 }
 
 #ddmenu li
