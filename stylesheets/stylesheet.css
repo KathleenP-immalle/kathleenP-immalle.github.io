@@ -9,8 +9,7 @@ navigation
     Eigen code
 */
 
-body{
-
+body {
     background: linear-gradient(#123dfa, #b3d9ff, #123dfa);
 }
 
@@ -20,10 +19,9 @@ footer {
     padding-bottom: 1px;
     padding-top: 1px;
     background-color: #432457;
-
 }
 
-header{
+header {
     background-color: #432457;
     width: 100%;
     z-index: +1;
@@ -31,41 +29,37 @@ header{
     top: 40px;
     padding-top: 90px;
     padding-bottom: 30px;
-
 }
 
-#headerNaam{
+#headerNaam {
     font-family: 'Pacifico', cursive;
     font-size: 25px;
     margin: 20px;
     padding-top: 2px;
     color: #cce6ff;
-
-
 }
 
-#headerTitel{
+#headerTitel {
     font-family: 'Pacifico', cursive;
     font-size: 56px;
     color: #cce6ff;
     z-index: -1;
-
 }
 
-#headerimg{
-
-    width:100%;
+#headerimg {
+    width: 100%;
     z-index: -5000;
 }
 
-h2{
+h2 {
     font-family: 'Pacifico', cursive;
     color: #730099;
     margin: 5px;
-    margin-top:25px;
+    margin-left: 20px;
+    margin-top: 25px;
 }
 
-#footerNaam{
+#footerNaam {
     font-family: 'Pacifico', cursive;
     font-size: 15px;
     margin: 20px;
@@ -74,23 +68,22 @@ h2{
     color: #cce6ff;
 }
 
-#footerTitel{
+#footerTitel {
     font-family: 'Pacifico', cursive;
     font-size: 42px;
     color: #cce6ff;
 }
 
 
-p{
+p {
     margin: 10px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
     line-height: 25px;
-
 }
 
-.blogpost{
+.blogpost {
     margin: 60px;
     padding: 20px;
     padding-top: 5px;
@@ -99,3 +92,34 @@ p{
     border-radius: 10px;
 }
 
+video {
+    width: 80%;
+    position: center;
+    margin: 10%;
+}
+
+
+ol {
+    margin: 15px;
+}
+
+li {
+    padding: 10px;
+    font-style: oblique;
+}
+
+ul {
+    font-style: italic;
+    font-family: 'Bungee', cursive;
+}
+
+#buttondiv{
+    margin-left:20px;
+
+}
+
+button{
+  background: linear-gradient(#b3d9ff, #432457);
+  border:thin;
+  border-color:black;
+ }
