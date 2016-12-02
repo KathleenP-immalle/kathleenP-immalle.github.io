@@ -1,13 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
-/*
-navigation
-*/
-
-
-
-/*
-    Eigen code
-*/
 
 body {
     background: linear-gradient(#123dfa, #b3d9ff, #123dfa);
@@ -32,7 +24,7 @@ header {
 }
 
 #headerNaam {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 25px;
     margin: 20px;
     padding-top: 2px;
@@ -52,15 +44,16 @@ header {
 }
 
 h2 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     color: #730099;
     margin: 5px;
     margin-left: 20px;
     margin-top: 25px;
+    font-size: 30px;
 }
 
 #footerNaam {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 15px;
     margin: 20px;
     padding-top: 2px;
@@ -103,13 +96,12 @@ ol {
     margin: 15px;
 }
 
-li {
+.faq {
     padding: 10px;
     font-style: oblique;
 }
 
 ul {
-    font-style: italic;
     font-family: 'Bungee', cursive;
 }
 
@@ -142,6 +134,12 @@ button{
     box-shadow: 5px 5px 1px #cce6ff;
 }
 
-#YouTube { 
-	margin: 0px;
+.progress{
+    margin: 20px;
+}
+
+
+#YouTube{
+    max-width: 500px;
+    text-align: center;
 }
