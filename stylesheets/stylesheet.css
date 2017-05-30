@@ -2,7 +2,7 @@
 
 
 body {
-    background: linear-gradient(#123dfa, #b3d9ff, #123dfa);
+    background: linear-gradient(#b3d9ff, #ffffff, #b3d9ff);
 }
 
 footer {
@@ -10,11 +10,11 @@ footer {
     padding: 10px;
     padding-bottom: 1px;
     padding-top: 1px;
-    background-color: #432457;
+    background-color: #ac7bc4;
 }
 
 header {
-    background-color: #432457;
+    background-color: #ac7bc4;
     width: 100%;
     z-index: +1;
     text-align: center;
@@ -45,7 +45,7 @@ header {
 
 h2 {
     font-family: 'Lobster', cursive;
-    color: #730099;
+    color: #6b4e7a;
     margin: 5px;
     margin-left: 20px;
     margin-top: 25px;
@@ -80,7 +80,7 @@ p {
     margin: 60px;
     padding: 20px;
     padding-top: 5px;
-    background: linear-gradient(#b3d9ff, #432457);
+    background: linear-gradient(#b3d9ff, #ac7bc4);
     box-shadow: 5px 5px 1px #cce6ff;
     border-radius: 10px;
 }
@@ -111,7 +111,7 @@ ul {
 }
 
 button{
-  background: linear-gradient(#b3d9ff, #432457);
+  background: linear-gradient(#b3d9ff, #ac7bc4);
   border:thin;
   border-color:black;
  }
@@ -121,6 +121,8 @@ button{
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .videoWrapper iframe {
 	position: absolute;

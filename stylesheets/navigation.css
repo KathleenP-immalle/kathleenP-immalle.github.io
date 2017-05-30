@@ -16,17 +16,17 @@
 
 #navli a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 #navli a:hover {
-    background: linear-gradient(#432457, #b3d9ff);
+    background: linear-gradient(#ac7bc4, #b3d9ff);
     color: black;
 }
 
 .active {
-    background: linear-gradient(#432457, #b3d9ff);
+    background: linear-gradient(#ac7bc4, #b3d9ff);
 }
