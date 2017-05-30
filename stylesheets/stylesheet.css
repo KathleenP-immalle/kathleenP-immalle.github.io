@@ -77,11 +77,12 @@ p {
 }
 
 .blogpost {
-    margin: 60px;
+    margin: 40px;
+    margin-top: 5px;
+    margin-bottom: 60px;
     padding: 20px;
     padding-top: 5px;
     background: linear-gradient(#b3d9ff, #ac7bc4);
-    box-shadow: 5px 5px 1px #cce6ff;
     border-radius: 10px;
 }
 
