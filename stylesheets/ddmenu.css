@@ -18,7 +18,7 @@
     text-align:center; 
     width:100%;
     font-size:0;
-    background:linear-gradient(#b3d9ff, #ac7bc4);
+    background:linear-gradient(#b3d9ff, #5F5D9E);
     list-style:none;
     position:relative;
     z-index:999999990;    
@@ -45,7 +45,7 @@
 }
 
  #ddmenu li:hover {
-     background: linear-gradient(#ac7bc4, #b3d9ff);
+     background: linear-gradient(#5F5D9E, #b3d9ff);
     color: black;
 }
 
@@ -68,7 +68,7 @@
 
 
 #ddmenu .active{
-     background: linear-gradient(#ac7bc4, #b3d9ff);
+     background: linear-gradient(#5F5D9E, #b3d9ff);
 
 }
 
@@ -93,7 +93,7 @@
         width: 100%;
         display: none;
         border-radius:12px;
-        background: linear-gradient(#b3d9ff, #ac7bc4);
+        background: linear-gradient(#b3d9ff, #5F5D9E);
 
     }
 

@@ -10,11 +10,11 @@ footer {
     padding: 10px;
     padding-bottom: 1px;
     padding-top: 1px;
-    background-color: #ac7bc4;
+    background-color: #5F5D9E;
 }
 
 header {
-    background-color: #ac7bc4;
+    background-color: #5F5D9E;
     width: 100%;
     z-index: +1;
     text-align: center;
@@ -45,7 +45,7 @@ header {
 
 h2 {
     font-family: 'Lobster', cursive;
-    color: #6b4e7a;
+    color: #373660;
     margin: 5px;
     margin-left: 20px;
     margin-top: 25px;
@@ -82,7 +82,7 @@ p {
     margin-bottom: 60px;
     padding: 20px;
     padding-top: 5px;
-    background: linear-gradient(#b3d9ff, #ac7bc4);
+    background: linear-gradient(#b3d9ff, #5F5D9E);
     border-radius: 10px;
 }
 
@@ -112,7 +112,7 @@ ul {
 }
 
 button{
-  background: linear-gradient(#b3d9ff, #ac7bc4);
+  background: linear-gradient(#b3d9ff, #5F5D9E);
   border:thin;
   border-color:black;
  }
