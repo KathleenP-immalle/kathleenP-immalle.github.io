@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 body {
@@ -119,7 +121,7 @@ button{
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 43.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
     margin-left: 5%;
@@ -129,8 +131,8 @@ button{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 80%;
 }
 
 .progress{
